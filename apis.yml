@@ -1,8 +1,26 @@
 aid: enertiv
 name: Enertiv
-description: Enertiv is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Enertiv is a commercial real estate sustainability and decarbonization technology
+  company serving owners and operators of large CRE portfolios. Its platform combines portfolio-scale
+  utility data collection and ESG reporting (Report), asset-specific carbon planning that pairs AI
+  recommendations with on-site equipment surveys (Decarbonize), and real-time monitoring with fault
+  detection and operational optimization (Optimize). Additional workflow tools cover automated tenant
+  utility billing and maintenance/work-order management, with integrations into property management
+  systems such as Yardi and MRI. The company guarantees 100% utility data coverage — including
+  tenant-controlled utilities — and has worked with 100+ large portfolios over more than fifteen years.
 url: https://raw.githubusercontent.com/api-evangelist/enertiv/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/69bc4d278163292282d5dd97/69f2370399562bb2646aad6c_enertiv-og-homepage%20(2).png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +29,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Real Estate
+- PropTech
+- Sustainability
+- ESG
+- Energy Management
+- Decarbonization
+- Building Operations
+- Utility Billing
+- Predictive Maintenance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +49,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://enertiv.com/
+  url: https://www.enertiv.com/
+- type: Blog
+  url: https://www.enertiv.com/blog
+- type: Support
+  url: https://www.enertiv.com/contact
+- type: Login
+  url: https://app.enertiv.com/
+- type: PrivacyPolicy
+  url: https://www.enertiv.com/privacy
+- type: DomainSecurity
+  url: security/enertiv-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
