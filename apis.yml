@@ -43,7 +43,7 @@ created: '2026-07-17'
 modified: '2026-07-19'
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - PropTech
 - Sustainability
 - ESG
@@ -63,6 +63,7 @@ tags_raw:
 - Building Operations
 - Utility Billing
 - Predictive Maintenance
+- Real-Estate
 apis: []
 maintainers:
 - FN: Kin Lane
